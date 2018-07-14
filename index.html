@@ -1,100 +1,12 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-	<script>
-	var resultA = ['hứa làm gì','xe bộ hành','gợi ý','ngày hôm qua','nhà gỗ','is taking', 'beautifully','suprise','better'];
-	var answerA = document.getElementsByClassName('answerA');
-	var dem=0;
-		function check() {
-		for (var i=0;i<resultA.length;i++){
-		if (answerA[i].value === resultA[i]){
-			dem++;
-		}
-	}   
-		document.getElementById('submit').style.display = "none";
-		document.getElementById('display').style.display = "inline-block";
-		document.getElementById('display').innerHTML = parseInt((dem/9)*10) + " điểm ";
-	}
-	</script>
-	<style>
-	input[type=text]{
-		width: 10%;
-		margin: 5px;
-		height: 15px;
-		border: none;
-		border-bottom: 1px dotted;
-		}
-		#display {
-			color: red;
-		}
-		h1, h2, h3, h4, h5,h6, p, li {
-			line-height: 18px;
-		}
-		header {
-			padding: 20px;
-			background-color: antiquewhite;
-			margin: 10px;
-			font-size: 20px;
-			font-weight: bolder;
-			color: green;
-			height: 150px;
-		}
-		a:link, a:visited, a:hover, a:focus {
-			text-decoration: none;
-			color: white;
-		}
-		.border-please {
-			border: 1px solid green;
-			padding: 18px;
-			width: 50%;
-		}
-		button, input[type=submit] {
-			padding: 20px;
-			border: none;
-			border-radius: 30px;
-			background-color: green;
-			color: white;
-			cursor: pointer;
-		}
-	</style>
-</head>
-<body>
-	<header>Xin chào, Giang
-	<h4> Từ giờ hãy để ý trên trang này tí, tôi sẽ đăng nhiều bài tập hơn cho ông. Lịch học tôi cũng sẽ update thường xuyên </h4>
-	<h5>Buổi tiếp theo: 8h30 sáng thứ 2, ngày 16/7/2018.</h5>
-	<h5>Nội dung: Qúa khứ tiếp diễn - Luyện nghe dạng hội thoại</h5></header>
-	<div>
-	<h1>A. Kiểm tra bài cũ</h1>
-	<h2>Bài tập 1: Viết nghĩa Tiếng Việt của các từ sau: (ghi chữ thường thôi nhé) </h2>
-	<ol>
-	<li> promise:<input type="text" class="answerA"></li>
-	<li> caravan:<input type="text" class="answerA"></li>
-	<li> suggest:<input type="text" class="answerA"></li>
-	<li> yesterday:<input type="text" class="answerA"></li>
-	<li> cottage:<input type="text" class="answerA"></li>
-	</ol>
-	<h2>Bài tập 2: Chia động từ</h2>
-	<ol>
-	<li> Mrs.Hoa <input type="text" class="answerA"> care of his children at the moment. (take)</li>
-	<li>My grandfather used to sing <input type="text" class="answerA"> when he was 20. (beauty) </li>
-	<li> The students in Mai Dich High School often <input type="text" class="answerA">when the guests come to their school (suprising)</li>
-	<li> This contestant is <input type="text" class="answerA"> than the others (good) </li></ol>
-	<input type="submit" value="Nộp bài" id="submit" onClick="check()">
-	<span id="display"></span>
-	</div>
-	<div>
-		<h1>B. Kiến thức buổi 2</h1>
-		<h3><b>I. Thì quá khứ đơn</b></h3>
-		<h3>1. Định nghĩa</h3>
-		<p> Thì quá khứ đơn (Past simple) dùng để diễn tả hành động sự vật xác định trong quá khứ hoặc vừa mới kết thúc.</p>
-		<i> Ví dụ 1: She <b>walked</b> on the street <b>last night</b> (Cô ấy đi trên phố vào buổi tối hôm qua) </i>
-		<p> Tập trung vào 2 phần được bôi đen là <i>walked</i> và <i>last night</i>. Đây là 2 dấu hiệu nhận biết của thì Qúa khứ đơn.</p>
-		<h3>2. Cấu trúc</h3>
-		<div class="border-please">
-		<b>Khẳng định: </b> S + V<sub>quá khứ</sub>
-		<p><b>Phủ định:</b> S + did not (didn't) + V<sub>nguyên thể</sub> </p>
+<head><meta charset="utf-8"><title>Untitled Document</title><script>var resultA=['hứa làm gì','xe bộ hành','gợi ý','ngày hôm qua','nhà gỗ','is taking','beautifully','suprise','better'];var answerA=document.getElementsByClassName('answerA');var dem=0;function check(){for(var i=0;i<resultA.length;i++){if(answerA[i].value===resultA[i]){dem++}}
+document.getElementById('submit').style.display="none";document.getElementById('display').style.display="inline-block";document.getElementById('display').innerHTML=parseInt((dem/9)*10)+" điểm "}</script><style>input[type=text]{width:10%;margin:5px;height:15px;border:none;border-bottom:1px dotted}
+#display{color:red}
+h1,h2,h3,h4,h5,h6,p,li{line-height:18px}
+header{padding:20px;background-color:antiquewhite;margin:10px;font-size:20px;font-weight:bolder;color:green;height:150px}
+a:link,a:visited,a:hover,a:focus{text-decoration:none;color:white}.border-please{border:1px solid green;padding:18px;width:50%}
+button,input[type=submit]{padding:20px;border:none;border-radius:30px;background-color:green;color:white;cursor:pointer}</style></head><body><header>Xin chào,Giang<h4>Từ giờ hãy để ý trên trang này tí,tôi sẽ đăng nhiều bài tập hơn cho ông.Lịch học tôi cũng sẽ update thường xuyên</h4><h5>Buổi tiếp theo:8h30 sáng thứ 2,ngày 16/7/2018.</h5><h5>Nội dung:Qúa khứ tiếp diễn-Luyện nghe dạng hội thoại</h5></header><div><h1>A.Kiểm tra bài cũ</h1><h2>Bài tập 1:Viết nghĩa Tiếng Việt của các từ sau:(ghi chữ thường thôi nhé)</h2><ol><li>promise:<input type="text" class="answerA"></li><li>caravan:<input type="text" class="answerA"></li><li>suggest:<input type="text" class="answerA"></li><li>yesterday:<input type="text" class="answerA"></li><li>cottage:<input type="text" class="answerA"></li></ol><h2>Bài tập 2:Chia động từ</h2><ol><li>Mrs.Hoa<input type="text" class="answerA">care of his children at the moment.(take)</li><li>My grandfather used to sing<input type="text" class="answerA">when he was 20.(beauty)</li><li>The students in Mai Dich High School often<input type="text" class="answerA">when the guests come to their school(suprising)</li><li>This contestant is<input type="text" class="answerA">than the others(good)</li></ol><input type="submit" value="Nộp bài" id="submit" onClick="check()"><span id="display"></span></div><div><h1>B.Kiến thức buổi 2</h1><h3><b>I.Thì quá khứ đơn</b></h3><h3>1.Định nghĩa</h3><p>Thì quá khứ đơn(Past simple)dùng để diễn tả hành động sự vật xác định trong quá khứ hoặc vừa mới kết thúc.</p><i>Ví dụ 1:She<b>walked</b>on the street<b>last night</b>(Cô ấy đi trên phố vào buổi tối hôm qua)</i><p>Tập trung vào 2 phần được bôi đen là<i>walked</i>và<i>last night</i>.Đây là 2 dấu hiệu nhận biết của thì Qúa khứ đơn.</p><h3>2.Cấu trúc</h3><div class="border-please"><b>Khẳng định:</b>S+V<sub>quá khứ</sub><p><b>Phủ định:</b>S+did not(didn't) + V<sub>nguyên thể</sub> </p>
 		<p><b>Nghi vấn:</b> Did + S + V<sub>nguyên thể</sub> ? </p>
 		</div>
 		<p>To be chia dạng quá khứ là <b>was</b> <i>đối với danh từ số ít hoặc ngôi thứ 1</i> hoặc <b>were</b> <i> với danh từ số nhiều hoặc ngôi thứ 3</i> </p>
@@ -103,33 +15,4 @@
 		<u>Một số ví dụ về Qúa khứ đơn: </u>
 		<ul>
 			<li>My father <b>worked</b> for the hospital 3 years ago  <i>(Bố của tôi đã làm ở bệnh viện 3 năm trước) </i></li>
-			<li>His friends <b>didn't know</b> how to use this computer when they <b>were</b> 9. <i>(Những bạn bè của anh ấy đã không biết về máy tính khi họ mới 9 tuổi.) </i></li>
-			<li><b>Did the people know</b> the truth about him? <i>(Mọi người đã biết sự thật về anh ấy chưa?) </i></li>
-		</ul>
-		<h3>3. Dấu hiệu nhận biết về trạng từ chỉ thời gian trong quá khứ đơn</h3>
-		<p>Các dấu hiệu nhận biết này sẽ giúp mình xác định rõ đâu là thì Qúa khứ đơn. <b>Rất quan trọng nhé!</b></p>
-		<ol>
-		<li>ago <i>(two years ago, 2 days ago,...)</i></li>
-		<li>yesterday, the previous day</li>
-		<li>last night, last month, last Sunday, last year,...</li>
-		<li><b>Đặc biệt:</b> Khi đi với when thì động từ chia ở thì quá khứ đơn.</li>
-	    </ol>
-		<hr>
-		<h3>II. Qúa khứ đơn vs Hiện tại hoàn thành</h3>
-		<h3>1. Đặt vấn đề:</h3>
-		<li>Nhiều học sinh chủ quan, không nắm vững được định nghĩa hai thì <b>Qúa khứ đơn</b> và <b>Hiện tại hoàn thành</b></li>
-		<p><b>Định nghĩa: </b>Thì hiện tại hoàn thành (Present perfect tense) diễn tả hành động xảy ra trong quá khứ nhưng vẫn còn tiếp diễn ở hiện tại hoặc ảnh hưởng tới hiện tại</p>
-		<li>Thì quá khứ đơn và thì hiện tại hoàn thành có 1 mối quan hệ khi sử dụng <b>since</b> <i>(kể từ khi)</i></li>
-		<p><i>Ví dụ 2: She <b>has arrived</b> since I <b>cooked</b> the meal. (Cô ấy đã tới từ lúc tôi nấu bữa ăn)</i></p>
-		<h3>2. Cấu trúc</h3>
-		<h2 class="border-please"> Mệnh đề hiện tại hoàn thành + since +  Mệnh đề quá khứ đơn</h2>
-		<p>Trong đó:</p>
-		<p><b>Mệnh đề hiện tại hoàn thành: </b>S + have/has + V <sub>Phân từ II</sub></p>
-		<p><b>Mệnh đề quá khứ đơn: </b> S +V<sub>quá khứ</sub></p>
-	</div>
-	    <br>
-	    <h1>C. Bài tập buổi 2 </h1>
-	    <blockquote>Đây là những bài tập giúp Giang nắm vững những kiến thức đã học. Cố gắng tự luyện thật nhiều nhé. Hãy làm xong hết rồi đối chiếu đáp án nhé </blockquote>
-	    <button><a href="baitap2.html"> Làm bài tập tại đây nhé </a></button>
-</body>
-</html>
+			<li>His friends <b>didn't know</b>how to use this computer when they<b>were</b>9.<i>(Những bạn bè của anh ấy đã không biết về máy tính khi họ mới 9 tuổi.)</i></li><li><b>Did the people know</b>the truth about him?<i>(Mọi người đã biết sự thật về anh ấy chưa?)</i></li></ul><h3>3.Dấu hiệu nhận biết về trạng từ chỉ thời gian trong quá khứ đơn</h3><p>Các dấu hiệu nhận biết này sẽ giúp mình xác định rõ đâu là thì Qúa khứ đơn.<b>Rất quan trọng nhé!</b></p><ol><li>ago<i>(two years ago,2 days ago,...)</i></li><li>yesterday,the previous day</li><li>last night,last month,last Sunday,last year,...</li><li><b>Đặc biệt:</b>Khi đi với when thì động từ chia ở thì quá khứ đơn.</li></ol><hr><h3>II.Qúa khứ đơn vs Hiện tại hoàn thành</h3><h3>1.Đặt vấn đề:</h3><li>Nhiều học sinh chủ quan,không nắm vững được định nghĩa hai thì<b>Qúa khứ đơn</b>và<b>Hiện tại hoàn thành</b></li><p><b>Định nghĩa:</b>Thì hiện tại hoàn thành(Present perfect tense)diễn tả hành động xảy ra trong quá khứ nhưng vẫn còn tiếp diễn ở hiện tại hoặc ảnh hưởng tới hiện tại</p><li>Thì quá khứ đơn và thì hiện tại hoàn thành có 1 mối quan hệ khi sử dụng<b>since</b><i>(kể từ khi)</i></li><p><i>Ví dụ 2:She<b>has arrived</b>since I<b>cooked</b>the meal.(Cô ấy đã tới từ lúc tôi nấu bữa ăn)</i></p><h3>2.Cấu trúc</h3><h2 class="border-please">Mệnh đề hiện tại hoàn thành+since+Mệnh đề quá khứ đơn</h2><p>Trong đó:</p><p><b>Mệnh đề hiện tại hoàn thành:</b>S+have/has+V<sub>Phân từ II</sub></p><p><b>Mệnh đề quá khứ đơn:</b>S+V<sub>quá khứ</sub></p></div><br><h1>C.Bài tập buổi 2</h1><blockquote>Đây là những bài tập giúp Giang nắm vững những kiến thức đã học.Cố gắng tự luyện thật nhiều nhé.Hãy làm xong hết rồi đối chiếu đáp án nhé</blockquote><button><a href="baitap2.html">Làm bài tập tại đây nhé</a></button></body></html>
